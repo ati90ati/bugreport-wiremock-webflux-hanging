@@ -1,6 +1,5 @@
 package org.anagy.bugreport.mock;
 
-import lombok.experimental.UtilityClass;
 import org.anagy.bugreport.client.client1.Client1Dto;
 
 import java.util.UUID;
@@ -9,8 +8,11 @@ import static com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder.o
 import static com.github.tomakehurst.wiremock.client.WireMock.get;
 import static com.github.tomakehurst.wiremock.client.WireMock.stubFor;
 
-@UtilityClass
-public class MockUtils {
+public final class MockUtils {
+
+    private MockUtils() {
+        throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
+    }
 
     public static void mockService1() {
         stubFor(get("/service1/api/name")
