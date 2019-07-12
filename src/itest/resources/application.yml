@@ -1,11 +1,11 @@
 api:
-  service1.url: http://localhost:${wiremock.server.port}
-  service2.url: http://localhost:${wiremock.server.port}
-  service3.url: http://localhost:${wiremock.server.port}
-  service4.url: http://localhost:${wiremock.server.port}
-  service5.url: http://localhost:${wiremock.server.port}
-  service6.url: http://localhost:${wiremock.server.port}
-  service7.url: http://localhost:${wiremock.server.port}
-  service8.url: http://localhost:${wiremock.server.port}
-  service9.url: http://localhost:${wiremock.server.port}
-  service10.url: http://localhost:${wiremock.server.port}
+  service1.url: http://localhost:12345
+  service2.url: http://localhost:12345
+  service3.url: http://localhost:12345
+  service4.url: http://localhost:12345
+  service5.url: http://localhost:12345
+  service6.url: http://localhost:12345
+  service7.url: http://localhost:12345
+  service8.url: http://localhost:12345
+  service9.url: http://localhost:12345
+  service10.url: http://localhost:12345
