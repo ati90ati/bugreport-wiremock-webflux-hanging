@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureWireMock(port = 0)
 @TestPropertySource(properties = {"wiremock.server.https-port=-1"})
-class NumberControllerIntegrationTest {
+class NumberControllerIntegrationTest2 {
 
     private static final int TRIES_PER_TEST = 2000;
 
